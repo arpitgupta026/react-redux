@@ -2,6 +2,7 @@ import React from "react";
 import ReactDom from "react-dom";
 import CommentDetail from "./CommentDetail";
 import Faker from "faker";
+import ApprovalCard from "./ApprovalCard";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         comment="It was a nice post !!"
         avatar={Faker.image.avatar()}
       />
+      <ApprovalCard />
       <CommentDetail
         author="Alex"
         timeAgo="Today ar 2:00PM"

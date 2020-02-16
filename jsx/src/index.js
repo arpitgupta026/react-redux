@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       {/* Class is chnaged to class ClassName */}
-      <label className="label" for="name">
+      <label className="label" htmlFor="name">
         {labelText}
       </label>
       <input id="name" type="text" />
